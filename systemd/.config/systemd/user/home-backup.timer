@@ -1,0 +1,8 @@
+[Unit]
+Description=Timer to backup user home dir
+
+[Timer]
+OnCalendar=*-*-* 17:00
+
+[Install]
+WantedBy=timers.target

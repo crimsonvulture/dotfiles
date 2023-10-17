@@ -1,0 +1,9 @@
+[Unit]
+Description=Backup User home dir
+
+[Service]
+Type=oneshot
+ExecStart=/home/user/git/productivity-scripts/backups.sh 
+
+[Install]
+WantedBy=multi-user.target
