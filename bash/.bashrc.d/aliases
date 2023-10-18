@@ -1,0 +1,3 @@
+alias vi="/usr/bin/nvim"
+export PATH=$PATH:$HOME/.pulumi/bin
+export SYSTEMD_EDITOR=nvim
