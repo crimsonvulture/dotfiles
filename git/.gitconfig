@@ -2,10 +2,8 @@
 	email = {ID}+{username}@users.noreply.github.com
 	name = Crimson Vulture
 [core]
-	editor = vim
-	editor = pager
+	editor = nvim
 	pager = less -FRXS
-	editor = vim
 [color]
 	ui = true
 [merge]
