@@ -2,6 +2,9 @@ Use stow to symlink
 
 
 Packages:
+gcc
+make
+nodejs-npm
 nvim
 ripgrep
 stow
