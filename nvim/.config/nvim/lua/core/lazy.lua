@@ -11,7 +11,5 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-vim.g.mapleader = "," -- Make sure to set `mapleader` before lazy so your mappings are correct
-
 -- Example using a list of specs with the default options
 require("lazy").setup("plugins")
