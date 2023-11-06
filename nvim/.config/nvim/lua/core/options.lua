@@ -14,3 +14,5 @@ opt.splitright = true -- vertical split to right
 opt.splitbelow = true -- horizontal split to the bottom
 
 opt.swapfile = false -- turn off swapfile
+
+opt.mouse = ""
