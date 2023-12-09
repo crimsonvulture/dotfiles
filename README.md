@@ -6,6 +6,8 @@ gcc
 make
 nodejs-npm
 nvim
+podman-compose
+python3-neovim
 ripgrep
 stow
 
