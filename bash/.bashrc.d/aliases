@@ -2,4 +2,6 @@ export PATH=$PATH:$HOME/.pulumi/bin
 export SYSTEMD_EDITOR=nvim
 
 alias vi="/usr/bin/nvim"
-alias update="sudo dnf -y update"
+alias update="sudo dnf clean all && sudo dnf -y update && sudo dnf -y autoremove"
+
+alias poetry_activate='source $(poetry env info --path)/bin/activate'

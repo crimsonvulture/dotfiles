@@ -6,12 +6,15 @@ gcc
 make
 nodejs-npm
 nvim
-podman-compose
 python3-neovim
 ripgrep
 stow
+tlp tlp-rdwq:
+gh
+kgpg
+
 
 Fonts:
-https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/SourceCodePro.zip
+curl https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/SourceCodePro.zip
 fc-cache -f -v
 Update terminal profile
